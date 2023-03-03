@@ -1,0 +1,18 @@
+button{
+    height: 20px;
+    font-size: 18px;
+    border: 1px solid darkslategrey;
+    display: flex;
+    align-items: center;
+    transition: all 0.3s ease;
+    box-shadow: 1px 1px 2px gray;
+}
+
+button:hover{
+    background-color: lightgray;
+}
+button:disabled{
+    opacity: 0.5;
+    background-color: lightgray;
+    color: darkslategrey;
+}

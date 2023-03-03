@@ -1,0 +1,10 @@
+.input {
+    outline: none;
+    border: 1px solid gray;
+    text-align: center;
+}
+
+.errorInput {
+    border: 1px solid red;
+    background-color: indianred;
+}
